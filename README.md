@@ -1,6 +1,6 @@
 # design-patterns
 
-## Factory Pattern
+### Factory Pattern
 Components of Pattern :
 
 1. Concrete Implelementation : In the example WashinMac , AC, Fridge are the concrete implemetations of interface Machine
@@ -13,7 +13,7 @@ Use Cases :
 1. Paint Program : Circle, Rectange, square etc implement shape and main program can get any of the instance.
 2. Ticketing Program : Air , Train , Bus Tickets as concrete implementation
 
-## Singleton Pattern
+### Singleton Pattern
 Only one instance of Class is created. Thus the constructor is private and the instance is public.
 Two methods of initialization :
 1. Early Initialization : The instance can be initialized when the class loads . and the same instance is returned whenever client program requests.
@@ -23,3 +23,6 @@ Use Cases :
 1. Single Database connection
 2. Logger
 3. access to limited resource
+
+### Prototype Pattern
+- https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns#Prototype
